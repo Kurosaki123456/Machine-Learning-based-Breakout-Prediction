@@ -12,15 +12,14 @@ Link to this paper: https://link.springer.com/article/10.1007/s42243-024-01198-2
 - [Project Structure](#project-structure)
 - [Models](#models)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 ### Prerequisites
 Before running the project, make sure you have the following dependencies installed:
 
-- Python 3.x
-- Pip (Python package manager)
+- Python: version 3.6 or higher.
+- Required Python package including numpy, pandas, matplotlib, sklearn etc,.
+- GPU Training Dependencies: PyTorch (with a version compatible with your CUDA and cuDNN installations).
 
 ### Steps to Install
 1. Clone the repository:
