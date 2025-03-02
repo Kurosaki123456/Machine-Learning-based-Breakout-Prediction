@@ -1,7 +1,9 @@
 # [Mold breakout prediction based on computer vision and machine learning]
 
 ## Overview
-This project aims to . It implements machine learning algorithms to [what the project does, e.g., detect anomalies, predict outcomes, etc.]. The focus of the project is to [specific goals, e.g., optimize model performance, compare different models, use advanced techniques like deep learning, etc.].
+This project seeks to predict sticking breakouts using machine learning models. We employ the AdaBoost and Logistic Regression models to analyze and identify feature vectors extracted from thermographic images of abnormal sticking regions. The primary focus is to accurately distinguish abnormal temperature patterns, significantly reducing false positives while ensuring no sticking breakouts are missed. Consequently, this approach provides valuable insights for anomaly detection and prediction in the continuous casting process.
+
+Link to this paper: https://link.springer.com/article/10.1007/s42243-024-01198-2
 
 ## Table of Contents
 - [Overview](#overview)
