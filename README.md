@@ -47,3 +47,31 @@ The project is organized as follows:
 
 ## Models
 ### Model Used
+The project utilizes the following machine learning models:
+
+Logistic regression (linear)
+
+Adaboost (ensemble model)
+
+These two machine learning models—AdaBoost and Logistic Regression—are utilized to differentiate between true and false sticking breakout samples. We employ these models to evaluate whether an ensemble approach (AdaBoost) outperforms a single linear model (Logistic Regression) in handling binary classification tasks, as well as to identify the optimal model for breakout prediction.
+
+## Results
+The following is a summary of the testing results obtained for Adaboost model:
+
+Best feature combination: [H, S, Rave, F_D, S_E, Edge_pnum]
+
+Confusion matrix:
+
+![image](https://github.com/user-attachments/assets/f52381a0-ddcb-4d93-9375-0e6c9f8f6b21)
+
+Missing alarms: 0
+
+False alarms: 22 (False alarm rate=13.9%)
+
+Recall: 1.00
+
+G-mean: 0.922
+
+AUC: 0.93
+
+AdaBoost outperforms the Logistic Regression model by combining weak classifiers, enabling it to fit complex decision boundaries and achieve better classification results on nonlinear datasets. In contrast, the Logistic Regression model is better suited for handling linear datasets. For a more detailed explanation and analysis, please refer to the accompanying paper.
