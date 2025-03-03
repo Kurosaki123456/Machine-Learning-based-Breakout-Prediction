@@ -33,10 +33,17 @@ To run the model, follow these steps:
 
     To test the Logisitic regression model, run: python Feature_vectors_classification_by_Logistic_Regression.py
 
-3. Once the script executes, it will initiate a loop that iterates over various feature combinations with a fixed dimension. You can modify the number of features and their corresponding combinations in the script to meet your specific requirements.
+3. Once the script executes, it will initiate a loop that iterates over various feature combinations with a fixed dimension. You can modify the number of features and their corresponding combinations in the script to meet your specific requirements. Ultimately, CSV files will be generated, containing the optimal feature combinations for the selected model.
 
 4. Note: We apologize for including some code written in Chinese; we are working to provide a fully English version in future updates.
 
 ## Project Structure
 The project is organized as follows:
 
+│  Feature_vectors_classification_by_Adaboost.py
+│  Feature_vectors_classification_by_Logistic_Regression.py
+│  Feature_vectors_of_sticking_region.csv
+│  structure.txt
+
+## Models
+### Model Used
